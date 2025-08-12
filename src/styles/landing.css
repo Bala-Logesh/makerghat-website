@@ -1,0 +1,88 @@
+.grid-container {
+    padding: 20px;
+    max-width: 1334px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 20px;
+    min-height: max-content;
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 610px;
+}
+
+.grid-container div {
+    border-radius: 15px;
+}
+
+.left {
+    background-color: var(--bg-primary);
+    grid-row: 1/-1;
+}
+
+.center-1 {
+    background-color: var(--bg-secondary);
+    grid-row: 1/8;
+    grid-column: 2/5;
+}
+
+.right-1,
+.right-2 {
+    background-color: aqua;
+    grid-row: 1/6;
+    grid-column: 5/-1;
+}
+
+.right-2 {
+    grid-row: 6/-1;
+}
+
+.center-2 {
+    grid-row: 8/-1;
+    grid-column: 2/5;
+    display: grid;
+    height: 100%;
+    gap: 20px;
+    grid-template-areas:
+        "A A B B C C"
+        "D D D E E E";
+}
+
+.center-2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-2 .ar {
+    grid-area: A;
+    background-color: var(--bg-yellow);
+}
+
+.center-2 .pr {
+    grid-area: B;
+    background-color: var(--bg-yellow);
+}
+
+.center-2 .cs {
+    grid-area: C;
+    background-color: var(--bg-yellow);
+}
+
+.center-2 .ct {
+    grid-area: D;
+    background-color: var(--bg-green);
+}
+
+.center-2 .cg {
+    grid-area: E;
+    background-color: var(--bg-green);
+}
+
+.right-1 {
+    background-color: var(--bg-green);
+}
+
+.right-2 {
+    background-color: var(--bg-primary-200);
+}
