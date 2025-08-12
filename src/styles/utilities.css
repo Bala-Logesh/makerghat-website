@@ -1,0 +1,40 @@
+/* Padding classes */
+.p20 {
+    padding: 20px;
+}
+
+/* Margin classes */
+.mb20 {
+    margin-bottom: 20px;
+}
+
+/* Flex classes */
+.flex-jcc-aic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-jcsb-aic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* Gap classes */
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+/* Misc classes */
+.pointer {
+    cursor: pointer;
+}

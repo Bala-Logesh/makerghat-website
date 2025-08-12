@@ -1,0 +1,25 @@
+:root {
+    --text-black: #000000;
+    --text-white: #FFFFFF;
+
+    --bg-primary: #4A3A80;
+    --bg-primary-200: #9289B3;
+    --bg-secondary: #F1805E;
+    --bg-yellow: #FFBD00;
+    --bg-red: #E60000;
+
+    --font-body-lg: 18px;
+    --font-body-md: 14px;
+    --font-heading-lg: 80px;
+    --font-heading-md: 48px;
+    --font-heading-sm: 20px;
+    --font-secondary: 90px;
+
+    --font-parkinsans: Parkinsans;
+    --font-outfit: Outfit;
+
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
